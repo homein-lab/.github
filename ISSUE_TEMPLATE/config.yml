@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+default:
+  name: Release
+  description: Default release template
+  title: "Release x.x.x"
+  body: []
