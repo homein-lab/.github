@@ -4,9 +4,7 @@ title: "Release x.x.x"
 body:
   - type: markdown
     attributes:
-      value: |
-        Update title with the new version you want to release and create the issue, further instructions will appear as comments.
-        _Ignore dummy input, Github issue template rules make mandatory to have at least one node apart from markdown_
+      value: Update title with the new version you want to release and create the issue, further instructions will appear as comments.
   - type: checkboxes
     id: autonomous
     attributes:
