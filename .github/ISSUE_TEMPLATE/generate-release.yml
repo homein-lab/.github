@@ -4,4 +4,4 @@ title: "Release x.x.x"
 body:
   - type: markdown
     attributes:
-      value: ""
+      value: "Update title with the new version you want to release and create the issue, further instructions will appear as comments"
