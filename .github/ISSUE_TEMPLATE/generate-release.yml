@@ -13,4 +13,4 @@ body:
       label: Autonomous release?
       description: CI/CD pipeline will auto-merge all pull requests after checks passes
       options:
-        - label: Yes
+        - label: Yes, autonomous
