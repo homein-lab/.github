@@ -1,6 +1,9 @@
 blank_issues_enabled: false
 default:
-  name: Release
+  name: Generate release
   description: Default release template
   title: "Release x.x.x"
-  body: []
+  body:
+    - type: markdown
+      attributes:
+        value: ""
