@@ -7,9 +7,10 @@ body:
       value: |
         Update title with the new version you want to release and create the issue, further instructions will appear as comments.
         _Ignore dummy input, Github issue template rules make mandatory to have at least one node apart from markdown_
-  - type: input
-    id: dummy
+  - type: checkboxes
+    id: autonomous
     attributes:
-      label: Dummy
-    validations:
-      required: false
+      label: Autonomous release?
+      description: CI/CD pipeline will auto-merge all pull requests after checks passes
+      options:
+        - label: Yes
