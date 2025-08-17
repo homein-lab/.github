@@ -4,4 +4,11 @@ title: "Release x.x.x"
 body:
   - type: markdown
     attributes:
-      value: "Update title with the new version you want to release and create the issue, further instructions will appear as comments"
+      value: "Update title and fill the input bellow with the new version you want to release and create the issue, further instructions will appear as comments"
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: x.x.x
+    validations:
+      required: true
