@@ -1,0 +1,7 @@
+name: Generate release
+description: Default template for generating releases
+title: "Release x.x.x"
+body:
+  - type: markdown
+    attributes:
+      value: ""
