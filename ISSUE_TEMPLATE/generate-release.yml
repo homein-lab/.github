@@ -1,4 +1,7 @@
 name: Release
 description: Default template for generating releases
 title: "Release x.x.x"
-body: []
+body:
+  - type: markdown
+    attributes:
+      value: ""
